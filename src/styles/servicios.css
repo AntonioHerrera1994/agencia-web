@@ -1,0 +1,29 @@
+/*********** Global ***********/
+
+.servicios{
+    padding-bottom: 1rem;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-top: 2rem;
+}
+
+.servicios-cont{
+    margin: 0 auto;
+    overflow: hidden;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.servicios-grid1{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 5rem;
+}
+
+.servicios-grid2{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 5rem;
+}

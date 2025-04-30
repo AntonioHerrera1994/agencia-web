@@ -2,6 +2,8 @@
 import Welcome from "../components/Welcome.astro";
 import Navbar from "../components/NavBar.astro";
 import MainHead from "../components/MainHead.astro";
+import Nosotros from "../components/nosotros.astro";
+import Servicios from "../components/Servicios.astro";
 
 import '../styles/global.css';
 ---
@@ -13,11 +15,18 @@ import '../styles/global.css';
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro Basics</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 	</head>
 	<body>
 
 		<Navbar />
 		<MainHead />
+		<Nosotros />
+		<Servicios />
+		<script>
+			import "../scripts/menu.js";
+			
+		  </script>
 	</body>
 </html>
 

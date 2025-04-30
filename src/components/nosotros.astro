@@ -1,0 +1,38 @@
+---
+import '../styles/nosotros.css';
+import {Image} from 'astro:assets';
+import NosotrosIMG from "../assets/d-web.png";
+---
+
+<section class="nosotros">
+    <div class="nosotros-cont">
+        <div class="nosotros-grid">
+           
+            <div>
+                <Image src={NosotrosIMG} alt="imagen-descripcion" width={1080} height={1080} class="imagen-nosotros" />
+            </div>
+            <div class="nos-txt">
+                <h2>
+                    Nos mantenemos a la vanguardia en el campo del desarrollo</h2>
+                    <p>Creamos grandes soluciones apoyándonos en las tecnologías del nuevo siglo. Nuestros profesionales están listos para ofrecerte una idea, un proceso y una solución cubriendo distintas áreas.
+                    </p>
+                    <ul>
+                        <li>
+                            <i class="bi bi-check-square"></i>Desarrollo Web
+                        </li>
+                        <li>
+                            <i class="bi bi-check-square"></i>Desarrollo de aplicaciones moviles
+                        </li>
+                        <li>
+                            <i class="bi bi-check-square"></i>Marketing digital
+                        </li>
+                        <li>
+                            <i class="bi bi-check-square"></i>Manejo de CRM
+                        </li>
+                    </ul>
+
+            </div>
+        </div>
+
+    </div>
+</section>

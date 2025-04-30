@@ -1,0 +1,43 @@
+/*********** Global ***********/
+
+.nosotros{
+    padding-bottom: 1rem;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-top: 2rem;
+}
+
+.nosotros-cont{
+    margin: 0 auto;
+    overflow: hidden;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.nosotros-grid{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 5rem;
+}
+
+/************ Grid ***********/
+
+.imagen-nosotros{
+    width: 100%;
+    height: 100%;
+}
+
+.nos-txt h2, p{
+    color: black;
+}
+
+li{
+    list-style: none;
+    line-height: 2.3rem;
+}
+
+i{
+    font-size: 1.1rem;
+    margin-right: .6rem;
+}
